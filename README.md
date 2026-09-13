@@ -56,8 +56,7 @@ For Hardware:
 *Add caption explaining the schematic*
 
 # Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
+ https://github.com/adarsh-adhi/Muttayi-Tholikkal/commit/d55290407ea38f1e725a39cb05bef09f146ce0b2
 
 ![Build](Add photos of build process here)
 *Explain the build steps*
