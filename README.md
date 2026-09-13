@@ -45,7 +45,7 @@ Arduino IDE
 # Diagrams
 Workflow
 https://github.com/adarsh-adhi/Muttayi-Tholikkal/blob/main/candy_unwrapper_workflow.png
-The system consists 
+
 
 For Hardware:
 
