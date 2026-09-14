@@ -51,7 +51,7 @@ For Hardware:
 
 # Schematic & Circuit
 Circuit diagram :
-https://github.com/adarsh-adhi/Muttayi-Tholikkal/blob/main/Circuit%20diagram.png\
+https://github.com/adarsh-adhi/Muttayi-Tholikkal/blob/main/Circuit%20diagram.png
 The actual circuit by us uses the TB6612FNG motor driver. So, please connect D8 of UNO to STBY of TB6612FNG. The 1k resistor in this diagram represents the heating element. You can choose the resistance of the element as you like, after designing the heating circuit appropriately. The 5V regulator should be able to handle the current draw by the servo, although if micro servos are used, you could skip the regulator and connect it's power directly to UNO's 5V output, External power is recommended for motor loads. The 9V battery(or 12V), should be able to supply enough current to keep the whole circuit running.
 
 Schematic diagram :
