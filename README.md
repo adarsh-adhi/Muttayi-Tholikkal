@@ -85,9 +85,8 @@ The heated sweep arm works by firstly heatig up the heatng element and making a 
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- Adarsh S: Electronics & firmware
+- Nazarullakhan: Electronics & mechanics
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
