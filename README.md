@@ -45,16 +45,18 @@ Arduino IDE
 # Diagrams
 Workflow
 https://github.com/adarsh-adhi/Muttayi-Tholikkal/blob/main/candy_unwrapper_workflow.png
-
+The station sits idle until one of two buttons is pressed. Button A triggers Station A: the twist-hook motors spin at fixed speeds for 1.5 seconds while the OLED displays live progress, then the motors stop and the system returns to idle. Button B triggers Station B: the TIP122-switched heating element preheats for 1 second, the servo sweeps its arm to execute the cut, the heater switches off, and the system returns to idle. Only one station can run at a time — each button press is ignored if its own station is already mid-sequence.
 
 For Hardware:
 
 # Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
+Circuit diagram :
+https://github.com/adarsh-adhi/Muttayi-Tholikkal/blob/main/Circuit%20diagram.png\
+The actual circuit by us uses the TB6612FNG motor driver. So, please connect D8 of UNO to STBY of TB6612FNG. The 1k resistor in this diagram represents the heating element. You can choose the resistance of the element as you like, after designing the heating circuit appropriately. The 5V regulator should be able to handle the current draw by the servo, although if micro servos are used, you could skip the regulator and connect it's power directly to UNO's 5V output, External power is recommended for motor loads. The 9V battery(or 12V), should be able to supply enough current to keep the whole circuit running.
 
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
+Schematic diagram :
+https://github.com/adarsh-adhi/Muttayi-Tholikkal/blob/main/Schematic.png
+This is the schematic diagram of the circuit. As explained above, please make necessary changes to your build. 
 
 # Build Photos
 - https://github.com/adarsh-adhi/Muttayi-Tholikkal/blob/main/WhatsApp%20Image%202026-09-13%20at%2010.52.11%20PM.jpeg
@@ -78,11 +80,11 @@ The heated sweep arm works by firstly heatig up the heatng element and making a 
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+https://github.com/adarsh-adhi/Muttayi-Tholikkal/blob/main/station1.mp4
+This video demonstrates the working of station1. A toffee is placed into the middle clip which holds it in place, then the wrap ends are clipped into the rotating clips on either ends of the toffee. When the trigger is pressed, the motors turn, turning the twist wrap and thus the toffee is unwrapped.
 
-# Additional Demos
-[Add any extra demo materials/links]
+https://github.com/adarsh-adhi/Muttayi-Tholikkal/blob/main/station2.mp4
+This video demonstrates the working of station2. The trigger button is pressed and immediately, the heating element starts to heat up, glowing red hot. After 1-1.5s, the servo starts to sweep slowly. The user places a flow wrap candy on the path of the hot element, which then smoothly slice open the wrap.
 
 ## Team Contributions
 - Adarsh S: Electronics & firmware
