@@ -25,7 +25,7 @@ Our project solves this problem by using a twin-twist clip mechanism to twist-un
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- C++/Arduino
+- C/C++/Arduino
 - State machines running in loop, triggered by two buttons
 - Wire, Adafruit_GFX, Adafruit_SSD1306, Servo
 - Arduino IDE
